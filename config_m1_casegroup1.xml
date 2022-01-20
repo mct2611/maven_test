@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<config>
+
+	<!-- Sip9k devices -->
+
+	<!-- <sip9k number="16650" host="30.1.64.153" username="admin" password="123456" lastname="grp1_16650" firstname="1" /> -->
+
+	<sip9k number="16660" host="30.1.64.40" username="admin" password="123456" lastname="h3_16660" firstname="1"/>	
+
+	<sip9k number="16661" host="30.1.64.115" username="admin" password="123456" lastname="h3_16661" firstname="1" />
+	
+	<sip9k number="16662" host="30.1.64.117" username="admin" password="123456" lastname="h3_16662" firstname="1" />
+
+	<!-- <oxe host="30.1.157.42" login="mtcl" password="mtcl"/> -->
+
+</config>

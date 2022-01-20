@@ -1,0 +1,85 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="9k Asterisk 172.24.190.166 Test campaigns">
+	<parameter name="configurationFile" value="config_m1_casegroup1.xml" />
+
+	<parameter name="WrongNumber" value="22598" />
+	<parameter name="WrongName" value="abcdefghijklmnopqrstuvwxyz" />
+	<parameter name="RemotePhonebookUrl" value="http://172.24.191.182/phonebook/RPB.xml" />
+	<parameter name="Tcpdump" value="False" />
+	<parameter name="MusicOnHold" value="False" />
+	<parameter name="WaitBeforeTest" value="True" />
+	<parameter name="CallServer" value="172.24.190.166" />
+	<parameter name="AudioServer" value="10.10.3.101" />	
+	<parameter name="TestCodec" value="125" />
+	<parameter name="ServerAllowNegotiation" value="False" />
+	<parameter name="AudioCheck" value="False" />
+	<parameter name="max_handset" value="-8 dB" />
+	<parameter name="min_handset" value="-32 dB" />
+	<parameter name="max_handsfree" value="0 dB" />
+	<parameter name="min_handsfree" value="-40 dB" />
+	<parameter name="DndAct" value="*78" />
+	<parameter name="DndDeact" value="*79" />
+	<parameter name="IMMFwdAct" value="*72" />
+	<parameter name="IMMFwdDeact" value="*73" />
+	<parameter name="BusyFwdAct" value="*90" />
+	<parameter name="BusyFwdDeact" value="*91" />
+	<parameter name="NoReplyFwdAct" value="*52" />
+	<parameter name="NoReplyFwdDeact" value="*53" />
+	<parameter name="ProgramKeyIndex" value="2" />
+	<parameter name="SoftKeyIndex" value="36" />
+	<parameter name="ResetFlashIP" value="30.1.64.151" />
+	<parameter name="ResetFlashNo" value="16633" />	
+	<parameter name="Max_Account" value="3" />	
+	<parameter name="Phone1" value="16660" />
+	<parameter name="Phone2" value="16661" /> 
+	<parameter name="Phone3" value="16662" />
+
+
+	<test name="Single">
+		<!-- <classes> -->
+<!-- 			<class name="com.ale.terminal.testcases.pegasus_9k.CampaignStart" />
+ 			<class name="com.ale.terminal.testcases.pegasus_9k.SingleCall_Incoming" />
+ 			<class name="com.ale.terminal.testcases.pegasus_9k.Deflect" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.Conference" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.ConferenceImprovement" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.Hold_Retrieve" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.CallerTransfer" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.CalleeTransfer">
+				<methods>
+					<exclude name="TC_Telephony_Z_DeleteAll_001" />
+				</methods>
+			</class>
+			<class name="com.ale.terminal.testcases.pegasus_9k.ConsultTransfer" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.Enquiry_MultiLine" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.MMI_HardKey" /> 
+			<class name="com.ale.terminal.testcases.pegasus_9k.MMI_History" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.MMI_Directory" />
+ 			<class name="com.ale.terminal.testcases.pegasus_9k.MMI_BasicSetting" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.LocalFwd" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.RemoteFwd" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.KeyAsSend" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.DefaultAccout" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.AutoAnswer">
+				<methods>
+					<exclude name="TC_AutoAnswer_03" />
+					<exclude name="TC_AutoAnswer_04" />
+				</methods>
+			</class>
+			<class name="com.ale.terminal.testcases.pegasus_9k.R120.ProgramKey" />
+			<class name="com.ale.terminal.testcases.pegasus_9k.R120.Conf_5way_Optimization">
+				<methods>
+					<exclude name="TC_65_07_5Ways_Conferences_06_3_partys_transfer_key" />
+					<exclude name="TC_65_30_5Ways_Conferences_30_5_partys_via_speed_dial_key" />
+					<exclude name="TC_65_31_5Ways_Conferences_31_hold_conference_call" />
+				</methods>
+			</class>
+			<class name="com.ale.terminal.testcases.pegasus_9k.CampaignEnd" />  -->
+			<!-- <class name="com.ale.terminal.testcases.misc.StressCampaignStart" /> -->
+   			<!-- <class name="com.ale.terminal.testcases.pegasus.stress.HoldRetrieve" />   -->
+   			<!-- <class name="com.ale.terminal.testcases.pegasus.stress.BlindTransfer" />   -->
+   			<!-- <class name="com.ale.terminal.testcases.pegasus.stress.Conference" />   -->
+   			<!-- <class name="com.ale.terminal.testcases.misc.StressCampaignEnd" />		 -->
+			
+		<!-- </classes> -->
+	</test>
+</suite>

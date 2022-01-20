@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<list>
+    <student className="尖子班" hobby="篮球 音乐 乒乓球" name="张三" number="10001" sex="男"/>
+    <student className="普通班" hobby="篮球 音乐 乒乓球" name="李四" number="10002" sex="男"/>
+    <student className="普通班" hobby="篮球 音乐 乒乓球" name="莉莉" number="10003" sex="女"/>
+</list>

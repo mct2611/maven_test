@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/javase_test01/pom.xml" />
+        <option value="$PROJECT_DIR$/javase_test02/pom.xml" />
+        <option value="$PROJECT_DIR$/javase_test03/pom.xml" />
+        <option value="$PROJECT_DIR$/javase_test04/pom.xml" />
+        <option value="$PROJECT_DIR$/javase_test05/pom.xml" />
+        <option value="$PROJECT_DIR$/guice-test/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxb_test/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/javase_test01/juice_test/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

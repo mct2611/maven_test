@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="javase_test05" />
+        <module name="javase_test03" />
+        <module name="javase_test04" />
+        <module name="guice-test" />
+        <module name="javase_test02" />
+        <module name="jaxb_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guice-test" target="1.7" />
+      <module name="guice_test" target="1.7" />
+      <module name="javase_test01" target="1.8" />
+      <module name="javase_test02" target="1.7" />
+      <module name="javase_test03" target="1.7" />
+      <module name="javase_test04" target="1.7" />
+      <module name="javase_test05" target="1.7" />
+      <module name="jaxb_test" target="1.7" />
+      <module name="juice_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

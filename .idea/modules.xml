@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/guice-test/guice-test.iml" filepath="$PROJECT_DIR$/guice-test/guice-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase_test01/javase_test01.iml" filepath="$PROJECT_DIR$/javase_test01/javase_test01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase_test02/javase_test02.iml" filepath="$PROJECT_DIR$/javase_test02/javase_test02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase_test03/javase_test03.iml" filepath="$PROJECT_DIR$/javase_test03/javase_test03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase_test04/javase_test04.iml" filepath="$PROJECT_DIR$/javase_test04/javase_test04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase_test05/javase_test05.iml" filepath="$PROJECT_DIR$/javase_test05/javase_test05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxb_test/jaxb_test.iml" filepath="$PROJECT_DIR$/jaxb_test/jaxb_test.iml" />
+    </modules>
+  </component>
+</project>
